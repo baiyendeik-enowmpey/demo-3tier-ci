@@ -1,9 +1,12 @@
-package com.example.demo.repository;
+package com.baiyendeik.demo.repository;
 
-import com.example.demo.model.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+
+import com.baiyendeik.demo.model.User;
+import com.baiyendeik.demo.repository.UserRepository;
+
 import java.util.Optional;
 import static org.assertj.core.api.Assertions.assertThat;
 

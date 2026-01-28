@@ -1,13 +1,15 @@
-package com.example.demo.controller;
+package com.baiyendeik.demo.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.baiyendeik.demo.dto.UserDTO;
+import com.baiyendeik.demo.model.User;
+import com.baiyendeik.demo.service.UserService;
+
 import jakarta.validation.Valid;
 import java.util.List;
 import java.util.stream.Collectors;
-import com.example.demo.model.User;
-import com.example.demo.dto.UserDTO;
-import com.example.demo.service.UserService;
 
 @RestController
 @RequestMapping("/users")

@@ -1,8 +1,5 @@
-package com.example.demo.controller;
+package com.baiyendeik.demo.controller;
 
-import com.example.demo.dto.UserDTO;
-import com.example.demo.model.User;
-import com.example.demo.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -13,6 +10,11 @@ import java.util.*;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+
+import com.baiyendeik.demo.controller.UserController;
+import com.baiyendeik.demo.dto.UserDTO;
+import com.baiyendeik.demo.model.User;
+import com.baiyendeik.demo.service.UserService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @WebMvcTest(UserController.class)

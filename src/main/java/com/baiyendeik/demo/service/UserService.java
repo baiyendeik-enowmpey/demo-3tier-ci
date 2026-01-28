@@ -1,10 +1,12 @@
-package com.example.demo.service;
+package com.baiyendeik.demo.service;
 
 import org.springframework.stereotype.Service;
+
+import com.baiyendeik.demo.model.User;
+import com.baiyendeik.demo.repository.UserRepository;
+
 import java.util.List;
 import java.util.Optional;
-import com.example.demo.model.User;
-import com.example.demo.repository.UserRepository;
 
 @Service
 public class UserService {

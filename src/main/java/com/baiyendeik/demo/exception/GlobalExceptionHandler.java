@@ -1,4 +1,4 @@
-package com.example.demo.exception;
+package com.baiyendeik.demo.exception;
 
 import org.springframework.http.*;
 import org.springframework.web.bind.MethodArgumentNotValidException;

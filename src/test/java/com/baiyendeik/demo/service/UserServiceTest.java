@@ -1,9 +1,12 @@
-package com.example.demo.service;
+package com.baiyendeik.demo.service;
 
-import com.example.demo.model.User;
-import com.example.demo.repository.UserRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import com.baiyendeik.demo.model.User;
+import com.baiyendeik.demo.repository.UserRepository;
+import com.baiyendeik.demo.service.UserService;
+
 import java.util.*;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
