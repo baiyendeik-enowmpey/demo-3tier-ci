@@ -1,5 +1,7 @@
 # Demo 3-Tier CI (Java 17)
 
+![Build Status](https://github.com/baiyendeik-enowmpey/demo-3tier-ci/actions/workflows/ci.yml/badge.svg)
+
 Spring Boot Projekt mit moderner 3-Schicht-Architektur, Validierung und CI/CD-Pipeline.
 
 ## Features
@@ -21,3 +23,6 @@ Der Workflow:
 2. Setzt Java 17 auf
 3. Führt Maven Build + Tests aus
 4. Baut Docker-Image (kein Push)
+
+# Demo 3-Tier CI (Java 17)
+
