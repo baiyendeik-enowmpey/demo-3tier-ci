@@ -1,6 +1,6 @@
 # Demo 3-Tier CI (Java 17 + Coverage)
 
-![Build Status](https://github.com/<USERNAME>/<REPO>/actions/workflows/ci.yml/badge.svg)
+![Build Status](https://github.com/baiyendeik-enowmpey/demo-3tier-ci/actions/workflows/ci.yml/badge.svg)
 ![Coverage](https://img.shields.io/badge/coverage-auto--generated-blue)
 
 Spring Boot Projekt mit moderner 3-Schicht-Architektur, Validierung, Docker und CI/CD Pipeline inklusive JaCoCo Code Coverage.
