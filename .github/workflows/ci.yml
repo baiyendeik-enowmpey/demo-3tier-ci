@@ -30,3 +30,15 @@ jobs:
     - name: Build Docker image (test only)
       run: docker build -t demo-3tier-ci-java17 .
 
+    - name: Docker Login
+      uses: docker/login-action@v2
+      with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_TOKEN }}
+
+    - name: Build Docker Image
+      run: docker build -t baiyendeik1970/demo-3tier:1.0.0 .
+
+    - name: Push Docker Image
+      run: docker push baiyendeik1970/demo-3tier:1.0.0
+
