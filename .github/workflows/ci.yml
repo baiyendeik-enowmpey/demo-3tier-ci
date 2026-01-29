@@ -24,5 +24,9 @@ jobs:
     - name: Build with Maven
       run: mvn -B clean verify
 
+    - name: Generate JaCoCo Coverage Report
+      run: mvn jacoco:report
+
     - name: Build Docker image (test only)
       run: docker build -t demo-3tier-ci-java17 .
+
